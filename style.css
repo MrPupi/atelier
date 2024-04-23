@@ -95,7 +95,7 @@ body {
   transition: 1.25s ease;
   background-color: azure;
   color: #1D262B;
-  background: linear-gradient(9191.83deg, beige 4.34%, azure 206.31%);
+  background: linear-gradient(#FFFFFF,transition 1.25s, ease);
 }
 .buttons {
   transition: 0.325s;
@@ -158,4 +158,9 @@ body {
   border-radius: 35px;
   margin: 60px 0;
   padding: 60px;
+}
+h3::before {
+  content: '||';
+  position: relative;
+  right: 30px;
 }
