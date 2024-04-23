@@ -1,0 +1,100 @@
+* {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+#main {
+  flex-grow: 1;
+  height: 600px;
+  background-color: beige;
+}
+#head, #contacts {
+  flex-shrink: 0;
+  height: 100px;
+  background-color: #628391;
+}
+#head  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#div_navig nav, ul, li, a{
+ text-decoration: none;
+ list-style-type: none;
+ color: beige;
+ display: flex;
+ flex-direction: row;
+ margin: 10px 30px 10px 0px;
+ font-size: 22px;
+}
+#div_con_add {
+  text-decoration: none;
+  list-style-type: none;
+  color: beige;
+  display: flex;
+  flex-direction: row;
+  margin: 26px 30px 10px 0px;
+  font-size: 22px;
+}
+#div_con_add span {
+  margin-left: 30px;
+}
+#img_one {
+  background-image: url(../pictures/costums.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 360px;
+  height: 240px;
+  border: 3px black solid;
+  border-radius: 35px;
+  margin: 60px 0px 10px 60px;
+}
+#text_for_img_one {
+  width: 325px;
+  height: 35px;
+  background-color: #628391;
+  color: beige;
+  border: 3px rgb(0, 36, 56) solid;
+  border-radius: 35px;
+  margin: 0px 60px;
+  padding: 20px;
+}
+#img_two {
+  background-image: url(../pictures/maniken.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 360px;
+  height: 236px;
+  border: 3px black solid;
+  border-radius: 35px;
+  margin: 0px 0px 10px 60px;
+}
+#text_for_img_two {
+  margin-top: 50px;
+}
+#btn_one, #btn_two {
+  width: 100px;
+  height: 35px;
+  padding: 20px;
+  background-color: #628391;
+  border-radius: 35px;
+  border: 3px rgb(0, 36, 56) solid;
+  margin: 2px 0px 0 60px; 
+}
+#div_img_main {
+  display: flex;
+  flex-direction: row;
+}
